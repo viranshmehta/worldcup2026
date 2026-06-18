@@ -1,7 +1,0 @@
-{
-  "name": "wc2026-functions",
-  "version": "1.0.0",
-  "dependencies": {
-    "@netlify/blobs": "^8.1.0"
-  }
-}
