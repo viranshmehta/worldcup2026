@@ -28,11 +28,82 @@
 }
 @media(prefers-color-scheme:light){
   :root{
-    --bg:#f0f4ff;--surface:#fff;--card:#fff;--card2:#f5f8ff;--panel:#f0f4ff;
-    --border:rgba(0,48,135,0.1);--bordergold:rgba(0,48,135,0.15);
-    --txt:#0a0e1a;--txt2:#4a5a78;--muted:#8899b4;
+    --bg:#f0f4ff;--surface:#ffffff;--card:#ffffff;--card2:#f5f8ff;--panel:#e8eeff;
+    --border:rgba(0,48,135,0.12);--bordergold:rgba(0,48,135,0.2);
+    --txt:#0a0e1a;--txt2:#2a3a5c;--muted:#6a7a9b;
     --oddsbg:#e8eeff;--oddshov:#d8e4ff;
+    --green:#00a854;--won:#00a854;--lost:#d42b44;--pending:#b8960b;--open:#1a8fd1;
   }
+  .hdr{background:linear-gradient(90deg,#001a52,#003087 40%,#001a52)!important}
+  .htitle .sub{color:rgba(255,255,255,.6)!important}
+  .btnref{background:rgba(255,255,255,.15);color:rgba(255,255,255,.9);border-color:rgba(255,255,255,.2)}
+  .btnref:hover{background:rgba(255,255,255,.25);color:#fff}
+  .cpill{color:var(--txt2)}
+  .sidebar{background:#dde6ff;border-right-color:rgba(0,48,135,.15)}
+  .sbl{color:#6a7a9b}
+  .sbi{color:#2a3a5c}.sbi:hover,.sbi.active{background:rgba(0,48,135,.1);color:#003087}
+  .sbbadge.gold{background:rgba(0,48,135,.1);color:#003087}
+  .ledger{background:#dde6ff;border-left-color:rgba(0,48,135,.15)}
+  .ltabs{background:#ccd8ff}
+  .ltab{color:#6a7a9b}.ltab.active{color:#003087;border-bottom-color:#003087}
+  .botnav{background:#dde6ff;border-top-color:rgba(0,48,135,.15)}
+  .bnitem{color:#6a7a9b}.bnitem.active{color:#003087}
+  .mc{background:#fff;border-color:rgba(0,48,135,.1)}
+  .mc:hover{border-color:rgba(0,48,135,.25)}
+  .mchdr{background:rgba(0,48,135,.04);border-bottom-color:rgba(0,48,135,.08)}
+  .obtn{background:#e8eeff;border-color:rgba(0,48,135,.1);color:#0a0e1a}
+  .obtn:hover{background:#d8e4ff;border-color:#003087}
+  .oval{color:#003087}
+  .olbl{color:#6a7a9b}
+  .oprob{color:#6a7a9b}
+  .wcard{background:#fff;border-color:rgba(0,48,135,.1)}
+  .wbadge.pending{color:#b8960b;border-color:rgba(184,150,11,.3)}
+  .wbadge.won{color:#00a854;border-color:rgba(0,168,84,.3)}
+  .wbadge.lost{color:#d42b44;border-color:rgba(212,43,68,.3)}
+  .disc{background:rgba(0,48,135,.05);border-color:rgba(0,48,135,.15)}
+  .disc b{color:#003087}
+  .night-summary{background:linear-gradient(135deg,rgba(0,48,135,.08),rgba(0,48,135,.04));border-color:rgba(0,48,135,.15)}
+  .ns-title{color:#003087}
+  .ns-stat{background:rgba(0,48,135,.05)}
+  .ns-val{color:#003087}
+  .pcard{background:#fff;border-color:rgba(0,48,135,.1)}
+  .h2hrow{background:#fff;border-color:rgba(0,48,135,.1)}
+  .sline{background:#fff;border-color:rgba(0,48,135,.1)}
+  .samt{color:#003087}
+  .lb-row{background:#fff;border-color:rgba(0,48,135,.1)}
+  .wgroup-hdr{color:#2a3a5c}
+  .wside{background:#e8eeff}
+  .wside .who{color:#0a0e1a}
+  .modal{background:#fff}
+  .mmatch{background:rgba(0,48,135,.05)}
+  .mfield input,.mfield select{background:#f0f4ff;border-color:rgba(0,48,135,.15);color:#0a0e1a}
+  .mfield select option{background:#fff;color:#0a0e1a}
+  .payout{background:linear-gradient(135deg,rgba(0,48,135,.08),rgba(0,168,84,.06))}
+  .bcancel{color:#2a3a5c;border-color:rgba(0,48,135,.2)}
+  .hero::after{color:#003087}
+  .sheet-panel{background:#dde6ff}
+  .accat{background:#fff}
+  .accahdr{background:linear-gradient(135deg,#001a52,#003087)}
+  .install-banner{background:linear-gradient(135deg,#001a52,#003087)}
+  .ftab{background:#fff;border-color:rgba(0,48,135,.15);color:#2a3a5c}
+  .ftab.active{background:#003087;border-color:#003087;color:#FFD700}
+  .fsearch{background:#fff;border-color:rgba(0,48,135,.15);color:#0a0e1a}
+  .btnmore{color:#2a3a5c;border-color:rgba(0,48,135,.15)}.btnmore:hover{border-color:#003087;color:#003087}
+  .mtab{color:#6a7a9b}.mtab.active{color:#003087;border-bottom-color:#003087}
+  .mrl{color:#6a7a9b}
+  .atag.auto{background:rgba(0,168,84,.12);color:#00a854}
+  .atag.manual{background:rgba(184,150,11,.12);color:#b8960b}
+  .score-nums{color:#00a854}
+  .score-min{color:#00a854}
+  .sechdr .lbl{color:#003087}
+  .sechdr .cnt{background:rgba(0,48,135,.08);color:#2a3a5c;border-color:rgba(0,48,135,.15)}
+  .wresult.auto{background:rgba(0,168,84,.06);color:#00a854}
+  .wresult.manual{background:rgba(184,150,11,.06);color:#b8960b}
+  .mnote.auto{background:rgba(0,168,84,.06);color:#00a854}
+  .mnote.manual{background:rgba(184,150,11,.06);color:#b8960b}
+  .expand-bg{background:rgba(0,0,0,.04)!important}
+  .expanded{background:rgba(0,48,135,.03)!important}
+  .live-card{border-color:rgba(0,168,84,.3)!important}
 }
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{font-size:14px;scroll-behavior:smooth}
@@ -448,7 +519,13 @@ button{font-family:'Inter',sans-serif;cursor:pointer}
 
 <!-- HEADER -->
 <header class="hdr">
-  <div class="hbrand"><span class="htrophy">🏆</span>
+  <div class="hbrand">
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter:drop-shadow(0 0 8px rgba(255,215,0,.6));flex-shrink:0">
+      <circle cx="16" cy="16" r="15" fill="#003087" stroke="#FFD700" stroke-width="1.5"/>
+      <path d="M16 6 L18.5 12.5 L25.5 12.5 L20 16.5 L22 23 L16 19 L10 23 L12 16.5 L6.5 12.5 L13.5 12.5 Z" fill="#FFD700"/>
+      <path d="M11 24 L21 24 L21 26 L11 26 Z" fill="#FFD700" rx="1"/>
+      <path d="M9 26 L23 26 L23 27.5 L9 27.5 Z" fill="#FFD700" rx="1"/>
+    </svg>
     <div class="htitle"><span class="wc">WORLD CUP 2026</span><span class="sub">ODDS &amp; FRIENDLY WAGERS</span></div>
   </div>
   <div class="hsp"></div>
@@ -488,7 +565,14 @@ button{font-family:'Inter',sans-serif;cursor:pointer}
       <div class="hl">FIFA WORLD CUP 2026</div>
       <div class="sb">48 teams · 104 matches · June 11 – July 19</div>
     </div>
-    <div class="hero-flags">🇺🇸🇨🇦🇲🇽</div>
+    <div class="hero-flags" style="display:flex;flex-direction:column;align-items:center;gap:4px">
+      <div style="display:flex;gap:4px">
+        <img src="https://flagcdn.com/w40/us.png" width="32" height="21" style="border-radius:2px;box-shadow:0 1px 4px rgba(0,0,0,.3)" alt="USA">
+        <img src="https://flagcdn.com/w40/ca.png" width="32" height="21" style="border-radius:2px;box-shadow:0 1px 4px rgba(0,0,0,.3)" alt="Canada">
+        <img src="https://flagcdn.com/w40/mx.png" width="32" height="21" style="border-radius:2px;box-shadow:0 1px 4px rgba(0,0,0,.3)" alt="Mexico">
+      </div>
+      <div style="font-size:8px;font-weight:700;letter-spacing:1.5px;color:rgba(255,215,0,.7);text-transform:uppercase">Host Nations</div>
+    </div>
   </div>
   <div class="fbar">
     <button class="ftab active" onclick="setft('all',this)">All</button>
@@ -513,9 +597,10 @@ button{font-family:'Inter',sans-serif;cursor:pointer}
     <div class="lpage active" id="pg-ledger"><div id="wlist-d"></div></div>
     <div class="lpage" id="pg-leaderboard"><div id="lb-d"></div></div>
     <div class="lpage" id="pg-players">
-      <div class="disc">Add everyone playing tonight. Each bet has a <b>backer</b> and a <b>layer</b>.</div>
+      <div class="disc">Add everyone playing tonight. Each bet has a <b>backer</b> and a <b>layer</b>. Players are <b>shared</b> — anyone opening this site sees the same list.</div>
       <div class="padd"><input id="pname-d" placeholder="Friend's name" onkeydown="if(event.key==='Enter')addP('d')"><button onclick="addP('d')">+</button></div>
       <div class="plist-grid" id="plist-d"></div>
+      <button onclick="resetPlayers()" style="width:100%;margin-top:12px;padding:8px;border-radius:6px;background:rgba(255,61,87,.08);border:1px solid rgba(255,61,87,.25);color:var(--lost);font-size:11px;font-weight:700;cursor:pointer;letter-spacing:.5px">🗑 Reset All Players</button>
     </div>
     <div class="lpage" id="pg-h2h"><div id="h2hlist-d"></div></div>
     <div class="lpage" id="pg-settle"><div id="slist-d"></div></div>
@@ -550,9 +635,10 @@ button{font-family:'Inter',sans-serif;cursor:pointer}
       </div>
       <div id="sheet-leaderboard" style="display:none"><div id="lb-m"></div></div>
       <div id="sheet-players" style="display:none">
-        <div class="disc">Add everyone playing tonight.</div>
+        <div class="disc">Add everyone playing tonight. Players sync across all devices on the same site.</div>
         <div class="padd"><input id="pname-m" placeholder="Friend's name" onkeydown="if(event.key==='Enter')addP('m')"><button onclick="addP('m')">+</button></div>
         <div class="plist-grid" id="plist-m"></div>
+        <button onclick="resetPlayers()" style="width:100%;margin-top:12px;padding:10px;border-radius:6px;background:rgba(255,61,87,.08);border:1px solid rgba(255,61,87,.25);color:var(--lost);font-size:12px;font-weight:700;cursor:pointer;letter-spacing:.5px">🗑 Reset All Players</button>
       </div>
       <div id="sheet-h2h" style="display:none"><div id="h2hlist-m"></div></div>
       <div id="sheet-settle" style="display:none"><div id="slist-m"></div></div>
@@ -620,7 +706,21 @@ var MATCHES=[],SCORES={},prevOdds={},isLive=false;
 var players=JSON.parse(localStorage.getItem('wc_p')||'[]');
 var wagers=JSON.parse(localStorage.getItem('wc_w')||'[]');
 var accaLegs=[],pending=null,pendingAcca=false,filter='all';
-function save(){localStorage.setItem('wc_p',JSON.stringify(players));localStorage.setItem('wc_w',JSON.stringify(wagers));}
+function save(){
+  // Save locally
+  localStorage.setItem('wc_p',JSON.stringify(players));
+  localStorage.setItem('wc_w',JSON.stringify(wagers));
+  // Also save to sessionStorage as cross-tab sync fallback
+  try{sessionStorage.setItem('wc_p_sync',JSON.stringify(players));}catch(e){}
+}
+function resetPlayers(){
+  if(!confirm('This will remove all players. Wagers will remain. Are you sure?'))return;
+  players=[];save();renderAll();showToast('Players reset');
+}
+function resetAll(){
+  if(!confirm('Reset EVERYTHING — all players and all wagers? This cannot be undone.'))return;
+  players=[];wagers=[];save();renderAll();showToast('All data reset');
+}
 function fmt(n){return Number(n).toLocaleString('en-IN',{maximumFractionDigits:0});}
 function esc(s){return String(s).replace(/\\/g,'\\\\').replace(/'/g,"\\'");}
 function findM(id){return MATCHES.find(function(m){return String(m.id)===String(id);});}
@@ -917,7 +1017,7 @@ function renderLedger(){
     if(!wagers.length){w.innerHTML='<div class="empty"><div class="ic">📒</div><div class="msg">No wagers yet.<br>Tap any odds to start.</div></div>';return;}
     // Build night summary
     var totalBets=wagers.length,settled=wagers.filter(function(x){return x.status!=='pending';}).length;
-    var ns='<div class="night-summary"><div class="ns-title">📊 Tonight\'s Summary</div><div class="ns-grid">'
+    var ns='<div class="night-summary"><div class="ns-title">⚽ Tonight\'s Summary</div><div class="ns-grid">'
       +'<div class="ns-stat"><div class="ns-val">'+totalBets+'</div><div class="ns-lbl">Total Bets</div></div>'
       +'<div class="ns-stat"><div class="ns-val">'+settled+'</div><div class="ns-lbl">Settled</div></div>'
       +'<div class="ns-stat"><div class="ns-val" style="color:var(--won)">'+wagers.filter(function(x){return x.status==='won';}).length+'</div><div class="ns-lbl">Won</div></div>'
@@ -1057,9 +1157,14 @@ function copySettle(){
 
 // ── TABS / NAV / FILTERS ──────────────────────────────────────────────────────
 function sw(page,idx){
-  document.querySelectorAll('#desktop-lbody .ltab').forEach(function(t,i){t.classList.toggle('active',i===idx);});
-  document.querySelectorAll('#desktop-lbody .lpage').forEach(function(p){p.classList.remove('active');});
+  // Update desktop tabs
+  document.querySelectorAll('.ledger .ltab').forEach(function(t,i){t.classList.toggle('active',i===idx);});
+  document.querySelectorAll('.lpage').forEach(function(p){p.classList.remove('active');});
   var pg=document.getElementById('pg-'+page);if(pg)pg.classList.add('active');
+  // Update sidebar active state
+  document.querySelectorAll('.sidebar .sbi').forEach(function(s){
+    if(s.getAttribute('onclick')&&s.getAttribute('onclick').includes("'"+page+"'"))s.classList.add('active');
+  });
 }
 function setf(f,el){filter=f;document.querySelectorAll('.sidebar .sbi').forEach(function(i){i.classList.remove('active');});if(el)el.classList.add('active');render();}
 function setft(f,el){filter=f;document.querySelectorAll('.ftab').forEach(function(t){t.classList.remove('active');});el.classList.add('active');render();}
