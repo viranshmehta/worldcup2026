@@ -1,0 +1,12 @@
+# Netlify configuration — you do not need to edit this.
+# It tells Netlify where your site files and serverless function live.
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Friendly short URL for the odds proxy: /api/odds  →  the function
+[[redirects]]
+  from = "/api/odds"
+  to = "/.netlify/functions/odds"
+  status = 200
